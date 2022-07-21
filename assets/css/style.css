@@ -43,16 +43,16 @@ bor {
     
   h4 {
     position: absolute;
-    left: 2%;
-    top: 0%;
+    left: -30%;
+    top: -24%;
     text-align: left;
-    font-size: 12px;
-    line-height: 22px;
+    font-size: 10px;
+    line-height: 12px;
     padding: 10px 15px;
     background: white;
-    color:  rgb(77, 20, 140);
+    color: rgb(77, 20, 140);
     border-radius: 5px;
-    border: 3px solid  rgb(77, 20, 140);
+    border: 3px solid rgb(77, 20, 140);
     text-align: center;
 }
   section {
@@ -63,13 +63,14 @@ bor {
   }
   .switcher{
     position: absolute;
-    top: 0;
+    top: -17%;
+    width: 100%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     flex-direction: column;
     gap: 10px;
-  padding: 10px;
+    padding: 10px;
   }
   .switcher a{
     font-size: 18px;
