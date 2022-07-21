@@ -28,13 +28,13 @@ bor {
   
   h2 {
     position: absolute;
-    right: -30%;
+    right: -28%;
     top: 50%;
     transform: translate(70%, calc(-0% - 170px));
     text-align: left;
-    font-size: 19px;
-    line-height: 28px;
-    padding: 10px 15px;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 5px;
     background: white;
     border-radius: 5px;
     border: 3px solid rgb(240, 95, 12);
@@ -43,8 +43,8 @@ bor {
     
   h4 {
     position: absolute;
-    left: -30%;
-    top: -24%;
+   left: -51%;
+    top: -28%;
     text-align: left;
     font-size: 10px;
     line-height: 12px;
@@ -58,12 +58,12 @@ bor {
   section {
     width: fit-content;
     height: fit-content;
-    padding: 50px 300px 50px 128px !important;
+    padding: 50px 300px 50px 212px !important;
     margin: auto;
   }
   .switcher{
     position: absolute;
-    top: -17%;
+    top: -24%;
     width: 100%;
     left: 50%;
     transform: translateX(-50%);
@@ -88,7 +88,7 @@ bor {
   }
   
   .landscapeScreen #engine-img {
-    height: calc(100vh - 190px);
+height: calc(100vh - 300px);
     border-radius: 10px;
   }
   
@@ -98,8 +98,8 @@ bor {
   
   .inputs {
     background-color: white;
-    padding: 7px;
-    max-width: 100px;
+    padding: 5px;
+    max-width: 78px;
     position: absolute;
     z-index: 1;
     transform-origin: center center;
@@ -111,13 +111,13 @@ bor {
     width: auto;
     display: block;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
   }
   
   .inputs input {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
-    width: 85px;
+    width: 75px;
     border-top: none;
     border-right: none;
     border-left: none;
@@ -151,7 +151,7 @@ bor {
   
   #p1 {
     left: 2%;
-    top: 27.5%;
+    top: 28.5%;
     transform: translate(-50%, -50%);
     border-color: rgb(77, 20, 140);
   }
@@ -165,7 +165,7 @@ bor {
   
   #p3 {
     left: 20.5%;
-    top: 12%;
+    top:9%;
     transform: translate(-50%, -50%);
     border-color: rgb(108, 34, 115);
   }
@@ -178,8 +178,8 @@ bor {
   }
   
   #p5 {
-    left: 53%;
-    bottom: 88%;
+    left: 51.5%;
+    bottom: 91%;
     transform: translate(-50%, 50%);
     border-color: rgb(182, 68, 57);
   }
@@ -193,7 +193,7 @@ bor {
   
   #p7 {
     right: 20.5%;
-    top: 12%;
+    top: 9%;
     transform: translate(50%, -50%);
     border-color: rgb(246, 98, 7);
   }
@@ -206,7 +206,7 @@ bor {
   }
   #p9{
     right: 2%;
-    top: 27.5%;
+    top: 28.5%;
     transform: translate(50%, -50%);
     border-color: rgb(215 136 85);
   }
@@ -216,7 +216,7 @@ bor {
     background: red;
     position: absolute;
     z-index: 0;
-    height: 130px;
+    height: 107px;
     transform-origin: center center;
   }
   
@@ -234,9 +234,9 @@ bor {
   }
   
   #line1 {
-    left: 16.9%;
-    top: 35%;
-    transform: translate(-50%, -50%) rotate(-29deg);
+left: 13.9%;
+    top: 37%;
+    transform: translate(-50%, -50%) rotate(-48deg);
     background: rgb(77, 20, 140);
   }
   
@@ -248,7 +248,7 @@ bor {
     left: 22.5%;
     top: 56%;
     transform: translate(-50%, -50%) rotate(-126deg);
-    height: 148px;
+    height: 109px;
     background: rgb(114 25 213);
   }
   
@@ -257,10 +257,10 @@ bor {
   }
   
   #line3 {
-    left: 34.7%;
-    top: 34%;
+       left: 35.7%;
+    top: 32%;
     transform: translate(-50%, -50%) rotate(-21deg);
-    height: 141px;
+    height: 111px;
     background: rgb(108, 34, 115);
   }
   
@@ -302,9 +302,9 @@ bor {
   }
   
   #line7 {
-    right: 32%;
-    top: 34%;
-    transform: translate(50%, -50%) rotate(13deg);
+right: 32.5%;
+    top: 32%;
+    transform: translate(50%, -50%) rotate(5deg);
     background: rgb(246, 98, 7);
   }
   
@@ -324,11 +324,11 @@ bor {
   }
   
   #line9{
-    right: 14.6%;
-    top: 34.2%;
-    transform: translate(50%, -50%) rotate(17deg);
-    height: 120px;
-    background: rgb(215 136 85);
+  right: 12.6%;
+    top: 36.2%;
+    transform: translate(50%, -50%) rotate(31deg);
+    height: 90px;
+    background: rgb(215 136 85)
   }
   
   #line9::after {
@@ -341,9 +341,9 @@ bor {
     justify-content: center;
     flex-grow: 1;
     width: 185px;
-    padding: 10px 15px;
+    padding:8px;
     position: absolute;
-    right: -30%;
+    right: -28%;
     top: 50%;
     transform: translate(70%, calc(-0% + 45px));
     background: white;
@@ -365,7 +365,7 @@ bor {
   }
   .groups {
     display: block;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 30px;
     text-align: center;
     margin: 0px;
@@ -410,8 +410,8 @@ bor {
     right: -45%;
   
     top: 18px;
-  
-    right: -30%;
+ 
+    right: -25%;
   
     top: 50%;
   
@@ -432,7 +432,45 @@ bor {
       padding: 75px 278px 0px 120px;
     }
   }
+   @media (max-width: 892px) {
+       .btns-logo{
+           width: 191px;
+           
+    right: -21% ;
+       }
+       .logo{
+           width:100px;
+       }
+       h4{
+              
+    left: -45% ;
+    top: -28% ;
+        font-size: 9px ;
+       }
+       h2 {
+   
+    right: -25%  ;
+    top: 50%  ;
   
+    font-size: 12px  ;
+    line-height: 20px  ;
+       }
+       .output {
+    width: 145px  ;
+    position: absolute  ;
+    right: -25%  ;
+    top: 24%  ;
+       }
+       .groups{
+        font-size:16px ;   
+       }
+       section{
+               padding: 50px 300px 50px 261px !important;
+       }
+       .output span {
+    margin: 3px 0;
+       }
+   }
   @media (max-height: 720px) {
     h2 {
       /* top: 50px; */

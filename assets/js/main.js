@@ -65,7 +65,7 @@ for (var i = 0; i < inputlength; i++) {
     groupD = ((eval(inp3) + eval(inp9)/2 - eval(inp6) + eval(inp7)) / 2).toFixed(3);
    
 
-    if (groupA == 0.25) {
+    if (groupA >= -0.25 && groupA <= 0.25) {
       document.querySelector("#groupA span").style.color = "green";
     } else {
       document.querySelector("#groupA span").style.color = "red";
@@ -75,7 +75,7 @@ for (var i = 0; i < inputlength; i++) {
     }
 
 
-    if (groupB == 0.25) {
+    if (groupB >= -0.25 && groupB <= 0.25) {
       document.querySelector("#groupB span").style.color = "green";
     } else {
       document.querySelector("#groupB span").style.color = "red";
@@ -84,7 +84,7 @@ for (var i = 0; i < inputlength; i++) {
       document.querySelector("#groupB span").innerHTML = groupB;
     }
 
-    if (groupC == 0.5) {
+    if (groupC >= -0.5 && groupC <= 0.5) {
       document.querySelector("#groupC span").style.color = "green";
     } else {
       document.querySelector("#groupC span").style.color = "red";
@@ -93,7 +93,7 @@ for (var i = 0; i < inputlength; i++) {
       document.querySelector("#groupC span").innerHTML = groupC;
     }
 
-    if (groupD == 0.5) {
+    if (groupD >= -0.5 && groupD <= 0.5) {
       document.querySelector("#groupD span").style.color = "green";
     } else {
       document.querySelector("#groupD span").style.color = "red";
