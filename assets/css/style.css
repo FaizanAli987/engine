@@ -237,76 +237,103 @@ bor {
     left: 16.9%;
     top: 35%;
     transform: translate(-50%, -50%) rotate(-29deg);
+    background: rgb(77, 20, 140);
   }
   
-  #line1::after {}
+  #line1::after {
+    background: rgb(77, 20, 140);
+  }
   
   #line2 {
     left: 22.5%;
     top: 56%;
     transform: translate(-50%, -50%) rotate(-126deg);
     height: 148px;
+    background: rgb(114 25 213);
   }
   
-  #line2::after {}
+  #line2::after {
+    background: rgb(114 25 213);
+  }
   
   #line3 {
     left: 34.7%;
     top: 34%;
     transform: translate(-50%, -50%) rotate(-21deg);
     height: 141px;
+    background: rgb(108, 34, 115);
   }
   
-  #line3::after {}
+  #line3::after {
+    background: rgb(108, 34, 115);
+  }
   
   #line4 {
     left: 40%;
     bottom: 41.5%;
     transform: translate(-50%, 50%) rotate(-147deg);
+    background: rgb(142 40 255);
   }
   
-  #line4::after {}
+  #line4::after {
+    background: rgb(142 40 255);
+  }
   
   #line5 {
     left: 52.5%;
     bottom: 66.5%;
     transform: translate(-50%, 50%) rotate(360deg);
+    background: #000;
   }
   
-  #line5::after {}
+  #line5::after {
+    background: #000;
+  }
   
   #line6 {
     right: 38%;
     bottom: 39%;
     transform: translate(50%, 50%) rotate(167deg);
+    background: rgb(216, 84, 31);
   }
   
-  #line6::after {}
+  #line6::after {
+    background: rgb(216, 84, 31);
+  }
   
   #line7 {
     right: 32%;
     top: 34%;
     transform: translate(50%, -50%) rotate(13deg);
+    background: rgb(246, 98, 7);
   }
   
-  #line7::after {}
+  #line7::after {
+    background: rgb(246, 98, 7);
+  }
   
   #line8 {
     right: 19.2%;
     top: 57.2%;
     transform: translate(50%, -50%) rotate(134deg);
+    background: rgb(213 65 65);
   }
   
-  #line8::after {}
+  #line8::after {
+    background: rgb(213 65 65);
+  }
   
   #line9{
     right: 14.6%;
     top: 34.2%;
     transform: translate(50%, -50%) rotate(17deg);
     height: 120px;
+    background: rgb(215 136 85);
   }
   
-  #line9::after {}
+  #line9::after {
+    background: rgb(215 136 85);
+  }
 
   .output {
     display: block;
