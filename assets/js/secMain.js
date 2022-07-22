@@ -47,7 +47,7 @@ for (var i = 0; i < inputlength; i++) {
  
    
 
-    if (groupA == 0.25) {
+    if (groupA >= -0.25 && groupA <= 0.25) {
       document.querySelector("#groupA span").style.color = "green";
     } else {
       document.querySelector("#groupA span").style.color = "red";
@@ -57,7 +57,7 @@ for (var i = 0; i < inputlength; i++) {
     }
 
 
-    if (groupB == 0.5) {
+    if (groupB >= -0.5 && groupB <= 0.5) {
       document.querySelector("#groupB span").style.color = "green";
     } else {
       document.querySelector("#groupB span").style.color = "red";
