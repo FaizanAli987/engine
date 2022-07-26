@@ -88,7 +88,7 @@ bor {
   }
   
   .landscapeScreen #engine-img {
-height: calc(100vh - 300px);
+height: 338px;
     border-radius: 10px;
   }
   
@@ -568,7 +568,7 @@ right: 32.5%;
 
   @media (min-height: 629px) {
     .landscapeScreen #engine-img {
-      height: calc(100vh - 426px);
+      height: 338px;
       border-radius: 10px;
   }
   }
